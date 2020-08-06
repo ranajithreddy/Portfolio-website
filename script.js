@@ -76,12 +76,7 @@ hamBurger.addEventListener("click",function(){
 	document.querySelector(".navbar").classList.toggle("show");
 })
 
-import { BrowserRouter } from "react-router-dom"
 
-ReactDOM.render(
-    <BrowserRouter><App /></BrowserRouter>,
-    document.getElementById('root')
-);
 import { HashRouter } from "react-router-dom"
 
 ReactDOM.render(
