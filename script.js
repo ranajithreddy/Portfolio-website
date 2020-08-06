@@ -75,3 +75,16 @@ const hamBurger=document.querySelector(".ham-burger");
 hamBurger.addEventListener("click",function(){
 	document.querySelector(".navbar").classList.toggle("show");
 })
+
+import { BrowserRouter } from "react-router-dom"
+
+ReactDOM.render(
+    <BrowserRouter><App /></BrowserRouter>,
+    document.getElementById('root')
+);
+import { HashRouter } from "react-router-dom"
+
+ReactDOM.render(
+    <HashRouter><App /></HashRouter>,
+    document.getElementById('root')
+);
